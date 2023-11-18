@@ -11,7 +11,7 @@ function IsItButton() {
             pathname: "/",
           }}
         >
-          <button className="bg-red-600 text-white rounded p-2 w-32 hover:bg-red-500 transition">
+          <button className="bg-red-600 text-white rounded p-2 w-24 hover:bg-red-500 transition">
             Inicio
           </button>
         </Link>
@@ -21,7 +21,7 @@ function IsItButton() {
             pathname: "/album",
           }}
         >
-          <button className="bg-red-600 text-white rounded p-2 w-32 hover:bg-red-500 transition">
+          <button className="bg-red-600 text-white rounded p-2   w-24 hover:bg-red-500 transition">
             Album
           </button>
         </Link>
