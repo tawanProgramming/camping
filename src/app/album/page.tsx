@@ -6,7 +6,7 @@ export default function Album () {
     useEffect(() => {
         const fetch = async () => {
             try {
-                const response = await axios.get("http://localhost:3100")
+                const response = await axios.get("https://api-camping.vercel.app/")
                 setPhotos(response.data)
             } catch (err) {
                 console.error("error" + err)
