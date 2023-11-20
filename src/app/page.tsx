@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import nigth from "@/assets/camping_noite.jpg";
-import { TextOne, TextTwo, InstagramButton } from "./components/Texts";
+import { TextOne, TextTwo, InstagramButton, FollowUsInstagram } from "./components/Texts";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
        < TextOne />
        <InstagramButton />
        < TextTwo />
+       <FollowUsInstagram/>
       </div>
     </main>
   );

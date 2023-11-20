@@ -2,7 +2,8 @@ import Image from "next/image";
 import huts from "@/assets/camping_cabanas.jpg";
 import whatsapp from "@/assets/whatsapp.png";
 import Link from "next/link";
-
+import family from "@/assets/album/f1.jpeg"
+import instagram from "@/assets/instagram-logo.png"
 Image;
 export function TextOne() {
   return (
@@ -21,7 +22,7 @@ export function TextTwo() {
     <div className=" mt-8 text-sm justify-center items-center flex flex-col w-full">
       <Image className="rounded" src={huts} alt="huts" />
       <p className="inika mt-4 ">
-        Diárias em cabanas a partir de{" "}
+        diárias em cabanas a partir de{" "}
         <span className="italic bold bg-green-400">R$100,00</span>
       </p>
         <Link
@@ -59,4 +60,21 @@ export function InstagramButton() {
     </Link>
     </div>
   );
+}
+
+
+export function FollowUsInstagram () {
+  return (
+    <div className="flex flex-start flex-col mt-8 justify-center items-center ">
+      <Image src={family} alt="Siga a gente no instagram" className="w-54  h-48 object-cover rounded"></Image>
+      <p className="text-sm inika mt-4">segue a gente na rede social, tem tudo lá! 😉</p>
+      <Link href="https://www.instagram.com/camping_do_gnomo_mistico/"
+      target="blank"
+      >
+        <button className="mt-4  w-32 flex justify-center rounded p-2 bg-pink-600 text-white kick floating">
+        <p>instagram</p>
+        </button>
+      </Link>
+    </div>
+  )
 }
