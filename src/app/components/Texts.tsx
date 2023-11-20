@@ -18,7 +18,7 @@ export function TextOne() {
 
 export function TextTwo() {
   return (
-    <div className="mt-8 text-sm justify-center items-center flex flex-col w-full">
+    <div className=" mt-8 text-sm justify-center items-center flex flex-col w-full">
       <Image className="rounded" src={huts} alt="huts" />
       <p className="inika mt-4 ">
         Diárias em cabanas a partir de{" "}
@@ -53,7 +53,7 @@ export function InstagramButton() {
       href="https://www.booking.com/hotel/br/ilheus-olivenca-camping-suites-amp-chale.pt-br.html"
       target="blank"
     >
-      <button className="flex justify-center items-center mt-4 text-sm bg-neutral-950 rounded text-white bold w-64 p-2 border-solid hover:bg-yellow-700 transition">
+      <button className="flex justify-center items-center mt-4 text-sm bg-neutral-950 rounded text-white bold w-64 p-2 border-solid hover:bg-red-600 transition">
         <p>Reservar no Booking</p>
       </button>
     </Link>

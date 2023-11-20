@@ -5,7 +5,7 @@ import { TextOne, TextTwo, InstagramButton } from "./components/Texts";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center items-center ml-8 mr-8 text-center pb-32 mt-12">
+    <main className=" flex flex-col justify-center items-center ml-8 mr-8 text-center pb-32 mt-12">
       
       <div className="max-w-sm">
         <Image
