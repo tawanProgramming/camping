@@ -71,7 +71,7 @@ export function FollowUsInstagram () {
       <Link href="https://www.instagram.com/camping_do_gnomo_mistico/"
       target="blank"
       >
-        <button className="mt-4  w-32 flex justify-center rounded p-2 bg-pink-600 text-white kick floating">
+        <button className="mt-4  w-32 flex justify-center rounded p-2 bg-pink-600 text-white kick floating hover:bg-pink-400 transition">
         <p>instagram</p>
         </button>
       </Link>
